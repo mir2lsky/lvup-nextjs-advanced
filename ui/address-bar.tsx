@@ -56,7 +56,7 @@ export function AddressBar() {
       </div>
       <div className="flex text-sm font-medium gap-x-1">
         <div>
-          <span className="px-2 text-gray-400">root</span>
+          <span className="px-2 text-gray-400">root(app)</span>
         </div>
         {pathname ? (
           <>

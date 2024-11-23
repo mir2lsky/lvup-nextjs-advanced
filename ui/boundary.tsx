@@ -44,6 +44,8 @@ export const Boundary = ({
   color?: "default" | "pink" | "blue" | "violet" | "cyan" | "orange";
   animateRerendering?: boolean;
 }) => {
+  // console.log("Boundary > labels : ", labels);
+  // console.log("Boundary > children : ", children);
   return (
     <div
       className={clsx("relative rounded-lg border border-dashed", {
@@ -69,6 +71,7 @@ export const Boundary = ({
         )}
       >
         {labels.map((label) => {
+          // console.log("labels > label : ", label);
           return (
             <Label
               key={label}

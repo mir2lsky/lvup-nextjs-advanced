@@ -45,4 +45,14 @@ export const menus: { name: string; items: Item[] }[] = [
       },
     ],
   },
+  {
+    name: "다양햔 기법",
+    items: [
+      {
+        name: "CSS 스타일링",
+        slug: "styling",
+        description: "다양한 스타일링 라이브러리 및 방법론 탐구",
+      },
+    ],
+  },
 ];
