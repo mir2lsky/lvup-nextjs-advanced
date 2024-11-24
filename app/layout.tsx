@@ -15,7 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body className="bg-white overflow-y-scroll bg-[url('/grid.svg')] pb-36">
+      {/* <body className="bg-white overflow-y-scroll bg-[url('/grid.svg')] pb-36"> */}
+      <body className="bg-white overflow-y-scroll pb-36">
         <GlobalNav />
         <div className="lg:pl-72">
           <div className="max-w-4xl px-2 pt-20 mx-auto space-y-8 lg:px-8 lg:py-8">

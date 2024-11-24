@@ -55,4 +55,42 @@ export const menus: { name: string; items: Item[] }[] = [
       },
     ],
   },
+  {
+    name: "랜더링: 서버/클라이언트 컴포너트",
+    items: [
+      {
+        name: "리액트 컨텍스트",
+        slug: "context",
+        description:
+          "Pass context between client component that cross Server/Client",
+      },
+    ],
+  },
+  {
+    name: "렌더링: 데이터 가져오기",
+    items: [
+      {
+        name: "정적 사이트 생성",
+        slug: "ssg",
+        description: "Generate static pages",
+      },
+      {
+        name: "증분적 정적 재생성",
+        slug: "isr",
+        description: "Get the best of both worlds between static & dynamic",
+      },
+      {
+        name: "서버 사이드 렌더링",
+        slug: "ssr",
+        description: "Server-render pages",
+      },
+
+      {
+        name: "서스펜스 스트리밍",
+        slug: "streaming",
+        description:
+          "Streaming data fetching from the server with React Suspense",
+      },
+    ],
+  },
 ];
