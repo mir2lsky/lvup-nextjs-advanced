@@ -6,7 +6,7 @@ export type Item = {
 
 export const menus: { name: string; items: Item[] }[] = [
   {
-    name: "라우팅: 레이아웃",
+    name: "라우팅: 기법",
     items: [
       {
         name: "라우팅 기본",
@@ -22,6 +22,11 @@ export const menus: { name: string; items: Item[] }[] = [
         name: "라우팅 그룹",
         slug: "route-groups",
         description: "URL경로에 영향을 주지 않고 라우트를 조작",
+      },
+      {
+        name: "병렬 라우팅",
+        slug: "parallel-routes",
+        description: "동일한 레이아웃에서 여러 페이지 렌더링하기",
       },
     ],
   },
@@ -46,17 +51,7 @@ export const menus: { name: string; items: Item[] }[] = [
     ],
   },
   {
-    name: "다양햔 기법",
-    items: [
-      {
-        name: "CSS 스타일링",
-        slug: "styling",
-        description: "다양한 스타일링 라이브러리 및 방법론 탐구",
-      },
-    ],
-  },
-  {
-    name: "랜더링: 서버/클라이언트 컴포너트",
+    name: "랜더링: 서버/클라이언트 컴포넌트",
     items: [
       {
         name: "리액트 컨텍스트",
@@ -90,6 +85,16 @@ export const menus: { name: string; items: Item[] }[] = [
         slug: "streaming",
         description:
           "Streaming data fetching from the server with React Suspense",
+      },
+    ],
+  },
+  {
+    name: "다양햔 기법",
+    items: [
+      {
+        name: "CSS 스타일링",
+        slug: "styling",
+        description: "다양한 스타일링 라이브러리 및 방법론 탐구",
       },
     ],
   },
